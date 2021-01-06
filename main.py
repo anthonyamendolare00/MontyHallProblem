@@ -112,7 +112,7 @@ for i in range(1, 2001): # for 2,000 tests
     y = sim_game2(switch2, i) # y = sim game 2 with no print statements (runs faster)
     win_percentage.append(y[1]/y[4]) # find win percentage
 
-print('The win percentage for test playing ', y[4], '# of games is:', y[1]/y[4] * 100, '%') # print the win percentage
+print('The win percentage for test playing ', y[4], ' games is:', y[1]/y[4] * 100, '%') # print the win percentage
 
 plt.figure(figsize=(20,7)) # plot the figure size
 plt.plot(num_tests, win_percentage) # plot the number of tests and win percentage ( x and y )
