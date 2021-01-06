@@ -1,0 +1,2 @@
+# MontyHallProblem
+The Monty Hall problem is a puzzle of probability. A gameshow with 3 doors, a prize (car) and 2 goats. This program shows that switching doors is the better option. For instance, the winning outcome when switching doors is 2/3, while not switching doors decreases your win percentage to 1/3. In addition, I visualized the Monty Hall problem by showing that increasing the sample size, increases your win percentage. My goal of this project was to work with probability in python and understand a brain teaser in the math world. 
